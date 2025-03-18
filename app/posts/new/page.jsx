@@ -26,6 +26,10 @@ const PostsNew = () => {
 	};
 
 	return (
+
+
+    <div className="container">
+
 		<form onSubmit={handleFormSubmit}>
 			<div className='form-group'>
 				<label>Title for Post</label>
@@ -58,7 +62,8 @@ const PostsNew = () => {
 			<button className='btn btn-primary' type='submit'>
 				Submit
 			</button>
-		</form>
+		</form></div>
+    
 	);
 };
 
